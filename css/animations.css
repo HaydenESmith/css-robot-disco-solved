@@ -1,0 +1,67 @@
+@keyframes eye-left {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
+
+@keyframes eye-right {
+  0% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes ear-left {
+  0% {
+    opacity: 1%;
+  }
+}
+
+@keyframes ear-right {
+  0% {
+    border-radius: 140px 0px 94px 80px;
+  }
+  25% {
+    border-radius: 0px 140px 50px 100px;
+  }
+  50% {
+    border-radius: 70px 140px 100px 70px;
+  }
+  75% {
+    border-radius: 110px 70px 100px 75px;
+  }
+  100% {
+    border-radius: 140px 0px 94px 80px;
+  }
+}
+
+@keyframes robot-nose {
+  0% {
+    transform: rotate(0deg);
+    transform-origin: 0% 100%;
+  }
+  100% {
+    transform: rotate(360deg);
+    transform-origin: 0% 100%;
+  }
+}
+
+@keyframes hair {
+  0% {
+    right: 37%;
+  }
+}
+
+@keyframes tooth {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.07);
+  }
+}
